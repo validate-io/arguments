@@ -33,7 +33,9 @@
     "isarguments",
     "arguments",
     "array-like",
-    "object"
+    "object",
+    "args",
+    "isargs"
   ],
   "bugs": {
     "url": "https://github.com/validate-io/arguments/issues"
