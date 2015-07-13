@@ -1,6 +1,6 @@
 {
   "name": "validate.io-arguments",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Validates if a value is an arguments object.",
   "author": {
     "name": "Athan Reines",
