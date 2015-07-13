@@ -26,7 +26,14 @@
     "validate.io",
     "validate",
     "validation",
-    "validator"
+    "validator",
+    "valid",
+    "is",
+    "isvalid",
+    "isarguments",
+    "arguments",
+    "array-like",
+    "object"
   ],
   "bugs": {
     "url": "https://github.com/validate-io/arguments/issues"
@@ -34,11 +41,12 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "3.x.x",
-    "mocha": "2.x.x",
     "coveralls": "^2.11.1",
     "istanbul": "^0.3.0",
     "jshint": "2.x.x",
-    "jshint-stylish": "2.x.x"
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x",
+    "proxyquire": "^1.6.0"
   },
   "license": "MIT"
 }

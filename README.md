@@ -17,18 +17,42 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var foo = require( 'validate.io-arguments' );
+var isArguments = require( 'validate.io-arguments' );
 ```
 
-#### foo( value )
+#### isArguments( value )
 
-What does this function do?
+Validates if a `value` is an [`arguments`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments) object.
+
+``` javascript
+function foo() {
+	return isArguments( arguments );
+}
+
+var bool = foo();
+// returns true
+```
 
 
 ## Examples
 
 ``` javascript
-var foo = require( 'validate.io-arguments' );
+var isArguments = require( 'validate.io-arguments' );
+
+function foo() {
+	return isArguments( arguments );
+}
+console.log( foo() );
+// returns true
+
+console.log( isArguments( [] ) );
+// returns false
+
+console.log( isArguments( {} ) );
+// returns false
+
+console.log( isArguments( null ) );
+// returns false
 ```
 
 To run the example code from the top-level application directory,
